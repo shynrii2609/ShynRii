@@ -2,7 +2,7 @@ body {
     display: block;
     color:#edf3ff;
     background:#c8c8c8;
-    background:url(background.jpg) fixed;
+    background:url(./img/background.jpg) fixed;
     background-size: cover;
 
 }
