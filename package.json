@@ -1,0 +1,11 @@
+{
+  "name": "longtruong",
+  "version": "1.0.0",
+  "description": "Truong Quang Long",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Quang Long",
+  "license": "ISC"
+}
