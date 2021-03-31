@@ -1,5 +1,14 @@
-var http = require('http');
+let PORT = process.env.PORT || 5000;
+let express = require('express');
+let app = express();
 
-http.createServer(function (req, res){
-    res.end('Quang Long');
-}).listen(process.env.PORT || 3000);
+let http = require('http');
+let server = http.Server(app);
+
+app.use(express.static('client'));
+
+server.listen(PORT, function() {
+    console.log('ShynRii is Running');
+});
+
+
